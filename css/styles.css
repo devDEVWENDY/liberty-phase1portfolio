@@ -8,12 +8,19 @@
 
 header {
     background-color: #000
+    
 }
 
 a {
     color: white;
 }
 
-.container {
+#nav-links {
+    /* displays links in single row & centered */
     display: flex;
+    justify-content: center;
+}
+
+li {
+    padding: 20px;
 }
