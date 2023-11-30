@@ -18,9 +18,30 @@ a {
 #nav-links {
     /* displays links in single row & centered */
     display: flex;
-    justify-content: center;
+    justify-content: center;        /* vertical ?
+    /* align-items: center; */      /* horizontal ? */
 }
 
 li {
     padding: 20px;
+}
+
+img {
+    margin: 20px;       /* used margin b/c padding distored pic rounding */
+}
+
+#bio-pic {
+    width: 200px;
+    clip-path: circle();    /* circular profile picture */
+   
+}
+
+#pic-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.bio-text {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
