@@ -67,6 +67,24 @@ img {                   /* adds space so not touching the black header */
     padding: 20px;
 }
 
+#card-container {
+    display: flex;
+}
+
+.card {
+    width: 200px;
+    /* height: 70px; */
+}
+
+.card-img img {
+    width: 100%;
+}
+
+
+
+
+
+
 @media all and (max-width: 410px) {
 /* media query stacks & re-centers navigation links */
     #nav-links {
