@@ -128,7 +128,7 @@ img {                   /* adds space so not touching the black header */
         padding: 5px;
     }
 
-/* media query resizes Bio text & margin */
+/* media query resizes Bio text & margin and changes card background to blue */
     .bio-text {
         font-size: smaller;
         /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
@@ -136,6 +136,11 @@ img {                   /* adds space so not touching the black header */
 
     #bio-container {
         margin: 20px;
+    }
+
+    .card {
+        border: 5px solid blue;
+        background-color: blue;
     }
 
 }
