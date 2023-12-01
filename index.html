@@ -75,6 +75,38 @@
 
             <section id="contact">
                 <h2>Contact</h2>
+                <p>Email me at <a href="mailto:wendy@fakeemail.com" id="email-me">wendy@fakeemail.com</a></p>
+
+                <h3>Contact form</h3>
+                <Form action="thankyou.html">
+                    <label for="firstname">Firstname</label>
+                    <input type="text" name="firstname" size="20" placeholder="Enter your first name" autofocus required/>*<br /><br />
+                    <label for="lastname">Lastname</label>
+                    <input type="text" name="lastname" size="20" placeholder="Enter your last name" required/>*<br /><br />
+                    <label>Topic</label>
+                    <select>
+                        <option value="General">General</option>
+                        <option value="Coding">Coding</option>
+                        <option value="Kayaking">Kayaking</option>
+                        <option value="Writing">Writing</option>
+                    </select><br /><br />
+                    
+                    <div>Professional Programmer</div>
+                    <input type="radio" name="programmer" id="yes" value="affirmative" checked />Yes <br />
+                    <label for="yes"></label>
+                    <input type="radio" name="programmer" id="no" value="negative"/>No <br /><br />
+                    <label for="no"></label><br />
+
+                    <label for="phone">Phone</label>
+                    <input type="text" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required/>*<br /><br />
+                    <label for="email">E-mail</E-mail></label><br />
+                    <input type="email" name="email" id="email" placeholder="Enter a valid e-mail" required />*<br />
+                    <input type="submit" value="Submit" /><br /><br />
+                    <p>Fields marked * are required.</p>
+
+
+
+                </Form>
 
             </section>
 
