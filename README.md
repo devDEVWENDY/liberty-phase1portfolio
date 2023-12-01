@@ -1,6 +1,17 @@
 
 
 Used the nav-links ID to display: inline-flex; the navigation links so they would align in a single row.
+------------
+
+Used Media query on #nav-links to stack the navigation links when the page width is 410px or less.
+
+
+
+
+
+
+
+------------
 
 flex-grow   how flex-items will grow if extra space in container
             1 <<= all flex-items grow by the same amount
@@ -10,3 +21,9 @@ flex-basis  sets initial size of flex-items
 
 Default     flex:   0           1       auto
             flex: grow      shrink      basis
+
+------------
+
+
+
+

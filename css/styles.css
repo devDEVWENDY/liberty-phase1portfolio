@@ -7,8 +7,7 @@
 }
 
 header {
-    background-color: #000
-    
+    background-color: black;
 }
 
 a {
@@ -20,13 +19,15 @@ a {
     display: flex;
     justify-content: center;        /* vertical ?
     /* align-items: center; */      /* horizontal ? */
+
+    padding: 20px;
 }
 
 li {
     padding: 20px;
 }
 
-img {
+img {                   /* adds space so not touching the black header */
     margin: 20px;       /* used margin b/c padding distored pic rounding */
 }
 
@@ -44,4 +45,22 @@ img {
 .bio-text {
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#skills-container {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+/* media query stacks & re-centers navigation links */
+@media all and (max-width: 410px) {
+    #nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    li {
+        padding: 5px;
+    }
 }
