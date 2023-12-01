@@ -53,12 +53,18 @@ img {                   /* adds space so not touching the black header */
 
 #bio-container {
     margin: 0px 40px;
-    /* margin: 20px;        media query */
 }
 
 #skills-container {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
+    justify-content: space-evenly; 
     flex-wrap: wrap; 
+}
+
+#skills-container > div {
+    padding: 20px;
 }
 
 @media all and (max-width: 410px) {
