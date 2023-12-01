@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+h2 {
+    margin: 20px;
+}
+
 header {
     background-color: black;
 }
@@ -28,7 +32,7 @@ li {
 }
 
 img {                   /* adds space so not touching the black header */
-    margin: 20px;       /* used margin b/c padding distored pic rounding */
+    margin-top: 20px;       /* used margin b/c padding distored pic rounding */
 }
 
 #bio-pic {
@@ -47,13 +51,18 @@ img {                   /* adds space so not touching the black header */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#bio-container {
+    margin: 0px 40px;
+    /* margin: 20px;        media query */
+}
+
 #skills-container {
     display: flex;
     flex-wrap: wrap; 
 }
 
-/* media query stacks & re-centers navigation links */
 @media all and (max-width: 410px) {
+/* media query stacks & re-centers navigation links */
     #nav-links {
         display: flex;
         flex-direction: column;
@@ -63,4 +72,15 @@ img {                   /* adds space so not touching the black header */
     li {
         padding: 5px;
     }
+
+/* media query resizes Bio text & margin */
+    .bio-text {
+        font-size: smaller;
+        /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    }
+
+    #bio-container {
+        margin: 20px;
+    }
+
 }
